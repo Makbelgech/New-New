@@ -1,0 +1,13 @@
+{
+    "builds": [
+      {
+        "src": "project1/wsgi.py",
+        "use": "@vercel/python"
+      },
+      {
+        "src": "staticfiles/*",
+        "use": "@vercel/static"
+      }
+    ]
+  }
+  
